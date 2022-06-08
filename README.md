@@ -3,8 +3,8 @@ using html and css and javascript only.
 It's simple and can be used by anyone.
 
 ## Deploy
-Git Hub Page <br>
-- [Deploy](none)
+ vercel<br>
+- [Deploy](http://blog-sample-rose.vercel.app/)
 
 ## Get Started Command
 ```
