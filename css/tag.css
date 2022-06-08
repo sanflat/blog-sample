@@ -1,0 +1,95 @@
+/*========= font import start =========*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap');
+/*========= /font import end =========*/
+
+/*========= const style start =========*/
+:root {
+  --font-color: #FFFFFF;
+  --border-color: #46464D;
+  --background-color: #202023;
+  --base-font: 'Noto Sans JP';
+}
+/*========= /const style end =========*/
+
+/*========= base tag style start =========*/
+body{
+  padding: 3rem 5rem;
+  color: var(--font-color);
+  background-color: var(--background-color);
+  font-family: var(--base-font), sans-serif;
+  -webkit-animation: fadeIn 3s ease 0s 1 normal;
+  animation: fadeIn 3s ease 0s 1 normal;
+}
+@media screen and (max-width: 480px) {
+  body{
+    padding: 2rem;
+  }
+}
+header{
+  display: inline-flex;
+}
+section{
+  margin: 5rem 0;
+}
+img{
+  border-radius: 10px;
+}
+h1{
+  font-size: 25px;
+  font-weight: 400;
+  word-wrap:break-word;
+}
+h2{
+  font-size: 22px;
+  font-weight: 400;
+  word-wrap:break-word;
+}
+h3{
+  font-size: 19px;
+  font-weight: 400;
+  word-wrap:break-word;
+}
+h4{
+  font-size: 17px;
+  font-weight: 300;
+  word-wrap:break-word;
+}
+h5{
+  font-size: 14px;
+  font-weight: 300;
+  word-wrap:break-word;
+}
+h6{
+  font-size: 11px;
+  font-weight: 300;
+  word-wrap:break-word;
+}
+p{
+  opacity: 0.8;
+  font-size: 1rem;
+  font-weight: 300;
+  word-wrap:break-word;
+}
+/*========= /base tag style start =========*/
+
+/*========= common animation style start =========*/
+@keyframes fadeIn {
+  0% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+/*========= /common animation style start =========*/

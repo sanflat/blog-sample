@@ -1,0 +1,89 @@
+/*========= header style start =========*/
+.header-title{
+  font-size: 3rem;
+  width: 100%;
+}
+.header-menu{
+  margin-left: 3rem;
+  display: flex;
+  align-items: center;
+}
+.header-menu a{
+  margin: 0 24px;
+}
+@media screen and (max-width: 480px) {
+  .header-title{
+    font-size: 2rem;
+    text-align: center;
+  }
+  .header-menu a{
+    display: none;
+  }
+}
+/*========= /header style end =========*/
+
+/*========= top and list content style start =========*/
+.category h2{
+  opacity: 0.5;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+.category div{
+  display: inline;
+  margin-right: 1.5rem;
+}
+.category a{
+  text-align: center;
+  display: inline-grid;
+  width: 280px;
+  word-wrap:break-word;
+  margin-bottom: 1.5rem;
+}
+.category img{
+  margin-bottom: 0.8rem;
+  height: 150px;
+  width: 280px;
+}
+/*========= /top and list content style end =========*/
+
+/*========= article style start =========*/
+.article {
+  margin: 3.5rem 0;
+}
+.article h2,
+.article h3,
+.article h4,
+.article h5,
+.article h6,
+.article p{
+  margin: 1rem 0;
+}
+.article a{
+  color: #FF63C3;
+}
+.article ul,
+.article ol{
+  margin: 1rem;
+}
+.article li{
+  margin: 0.5rem;
+}
+.article table{
+  margin: 0.5rem;
+}
+.article th,
+.article td{
+  border: 1px solid #46464D;
+  padding: 0.3rem;
+}
+.article img{
+  width: 60%;
+  margin: 0.8rem 0;
+}
+@media screen and (max-width: 480px) {
+  .article img{
+    width: 100%;
+  }
+}
+
+/*========= /article style  end =========*/
