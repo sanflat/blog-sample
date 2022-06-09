@@ -18,6 +18,7 @@ $ http-server
 - [HTML]
 - [CSS]
 - [JavaScript]
+- [MicroCMS]
 
 ## Project structure
 
