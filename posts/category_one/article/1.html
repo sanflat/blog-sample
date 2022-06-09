@@ -5,10 +5,16 @@
     <title>article 1| blog sample</title>
     <meta name="description" content="blog sample">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- reset css -->
+    <link rel="stylesheet" href="../../../css/destyle.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="../../../css/style.css">
+    <!-- html tag css -->
+    <link rel="stylesheet" href="../../../css/tag.css">
+    <!-- cms js -->
     <script src="https://unpkg.com/microcms-js-sdk@latest/dist/umd/microcms-js-sdk.js"></script>
     <script>
       const { createClient } = microcms;
-
       const client = createClient({
         serviceDomain: 'blogsample0609', // service-domain は XXXX.microcms.io の XXXX 部分
         apiKey: '5a1d3442ca1a4233b7296eeeaa060c24e6bc',
@@ -19,16 +25,8 @@
         document.querySelector('#content').innerHTML = res.contents[0].content
       })
     </script>
-    <!-- reset css -->
-    <link rel="stylesheet" href="../../../css/destyle.css">
-    <!-- style css -->
-    <link rel="stylesheet" href="../../../css/style.css">
-    <!-- html tag css -->
-    <link rel="stylesheet" href="../../../css/tag.css">
     <!-- include js -->
     <script src="../../../js/include.js"></script>
-    <!-- cms js -->
-    <!-- <script src="../../../js/cms.js"></script> -->
 </head>
 <body>
   <div id="header"></div>
