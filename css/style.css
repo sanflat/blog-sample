@@ -3,12 +3,14 @@
   font-size: 3rem;
   width: 100%;
 }
-.header-menu{
-  margin-left: 3rem;
+#headerMenu{
+  margin-left: 6rem;
   display: flex;
   align-items: center;
 }
-.header-menu a{
+#headerMenu a{
+  width: 8rem;
+  text-align: center;
   margin: 0 24px;
 }
 @media screen and (max-width: 480px) {
@@ -16,30 +18,30 @@
     font-size: 2rem;
     text-align: center;
   }
-  .header-menu a{
+  #headerMenu a{
     display: none;
   }
 }
 /*========= /header style end =========*/
 
 /*========= top and list content style start =========*/
-.category h2{
+#insertPosts h2{
   opacity: 0.5;
   margin-bottom: 1rem;
   text-decoration: underline;
 }
-.category div{
+#insertPosts div{
   display: inline;
   margin-right: 1.5rem;
 }
-.category a{
+#insertPosts a{
   text-align: center;
   display: inline-grid;
   width: 280px;
   word-wrap:break-word;
   margin-bottom: 1.5rem;
 }
-.category img{
+#insertPosts img{
   margin-bottom: 0.8rem;
   height: 150px;
   width: 280px;
