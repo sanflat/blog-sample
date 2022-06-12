@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const array2 = Array.from(new Set(array))
     for (var i = 0; i < array2.length; i++) {
       const anchor  = document.createElement("a");
-      anchor.href = "?list=" + array2[i];
+      anchor.href = "/?list=" + array2[i];
       anchor.textContent = array2[i];
       insertHeaderMenu.insertAdjacentHTML('afterbegin', anchor.outerHTML);
     }
